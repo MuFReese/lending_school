@@ -59,6 +59,9 @@ hr{
 .courseImageStain{
   position: absolute;
   transition: all 0.15s ease-in;
+  width: 66px;
+  height: 66px;
+  color: rgba(178, 227, 255, 1);
 }
 .coutseImageIcon{
   position: relative;
@@ -66,7 +69,7 @@ hr{
 }
 
 .course:hover .courseImageStain{
-  fill: #E77C40;
+  color: #E77C40;
 }
 
 .course{
