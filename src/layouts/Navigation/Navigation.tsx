@@ -7,7 +7,7 @@ export default function Navigation() {
   return(
     <nav className='wrapNav'>
 
-      <h2>{nav.title}</h2>
+      <div className='wrapNav-title'>{nav.title}</div>
 
       <Navbar />
 

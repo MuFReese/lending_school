@@ -108,7 +108,7 @@ button{
 
 
 a{
-  color: #737373;
+  /* color: #737373; */
   font-size: 14px;
   font-weight: bold;
 }
@@ -116,6 +116,7 @@ a{
 h5{
   font-size: 16px;
   line-height: 24px;
+  font-weight: bold;
 }
 
 h1{
@@ -129,8 +130,10 @@ h4{
 }
 
 h2{
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
+  line-height: 50px;
+  color: #252B42;
 }
 
 button{
@@ -140,11 +143,14 @@ button{
 h6{
   font-size: 14px;
   line-height: 24px;
+  font-weight: bold;
+  color: #96BB7C;
 }
 
 p{
   font-size: 14px;
   line-height: 20px;
+  color: #737373;
 }
 
 
