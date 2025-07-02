@@ -12,8 +12,8 @@ function App() {
     <>
     <Navigation/>
     <Header />
-    <Companies />
-    <Courses />
+    {/* <Companies /> */}
+    {/* <Courses /> */}
     <br />
     <br />
     <br />

@@ -74,6 +74,4 @@ const StyleButton = styled.button<Omit<ButtonProps, 'title'>>`
       }
   `
   }
-
-
 `
