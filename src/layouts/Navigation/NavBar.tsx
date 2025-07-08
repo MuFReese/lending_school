@@ -1,4 +1,4 @@
-import Button from '../../components/Button.tsx'
+import Button from '../../components/Button/Button.tsx'
 import { nav } from '../../data.ts'
 import { useMediaQuery } from 'react-responsive';
 import { IoReorderThreeOutline } from "react-icons/io5";

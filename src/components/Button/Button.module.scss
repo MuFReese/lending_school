@@ -1,0 +1,59 @@
+$lightGreen: #96BB7C;
+
+
+.button{
+  font-weight: bold;
+  transition: all 0.15s ease-in-out;
+
+
+}
+
+.login{
+  color: $lightGreen;
+  &:hover{
+    text-shadow: 0 0 3px $lightGreen;
+  }
+}
+
+.join{
+  color: white;
+  background: $lightGreen;
+  border-radius: 15px;
+  padding: 15px;
+  &:hover{
+    text-shadow: 0 0 5px white;
+    box-shadow: 1px 1px 5px black; 
+  }
+}
+
+.quoteNow{
+  color: white;
+  background: $lightGreen;
+  border-radius: 15px;
+  padding: 15px 40px;
+  &:hover{
+    text-shadow: 0 0 5px white;
+    box-shadow: 1px 1px 5px black; 
+  }
+}
+
+.learnMore{
+  color: $lightGreen;
+  border: 1px solid $lightGreen;
+  border-radius: 15px;
+  padding: 15px 40px;
+  &:hover{
+    text-shadow: 0 0 5px $lightGreen;
+    box-shadow: 0px 0px 5px $lightGreen; 
+  }
+}
+
+
+@media (max-width: 420px) {
+  .learnMore{
+    padding: 10px 25px;
+  }
+  .quoteNow{
+    padding: 10px 25px;
+  }
+}
