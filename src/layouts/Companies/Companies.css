@@ -1,8 +1,64 @@
 
-.companies{
-  display: flex;
-  justify-content: space-around;
-  margin: 200px 0px;
+.scroller-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 100px 0px;
+  --item-width: 200px;
+  --gap: 40px;
+  --animation-duration: 10s;
 }
 
+.scroller-track {
+  display: flex;
+  gap: var(--gap);
+  animation: scroll var(--animation-duration) linear infinite;
+  padding: 20px 0;
+  min-width: max-content;
+}
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - var(--gap)/2));
+  }
+}
+
+.logo-container {
+  flex: 0 0 var(--item-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.scroller-container::before,
+.scroller-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.scroller-container::before {
+  left: 0;
+  background: linear-gradient(90deg, #fff 0%, transparent 100%);
+}
+
+.scroller-container::after {
+  right: 0;
+  background: linear-gradient(270deg, #fff 0%, transparent 100%);
+}

@@ -12,7 +12,7 @@ function App() {
     <>
     <Navigation/>
     <Header />
-    {/* <Companies /> */}
+    <Companies />
     {/* <Courses /> */}
     <br />
     <br />
