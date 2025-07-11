@@ -13,7 +13,7 @@ function App() {
     <Navigation/>
     <Header />
     <Companies />
-    {/* <Courses /> */}
+    <Courses />
     <br />
     <br />
     <br />

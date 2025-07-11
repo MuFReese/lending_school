@@ -3,10 +3,10 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  margin: 100px 0px;
+  margin: 80px 0px;
   --item-width: 200px;
   --gap: 40px;
-  --animation-duration: 10s;
+  --animation-duration: 20s;
 }
 
 .scroller-track {
@@ -30,7 +30,7 @@
   flex: 0 0 var(--item-width);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 }
 
 .logo {
@@ -41,6 +41,11 @@
   object-fit: contain;
   transition: transform 0.3s ease;
 }
+
+.logo:hover{
+  transform: scale(1.1);
+}
+
 
 .scroller-container::before,
 .scroller-container::after {
@@ -61,4 +66,10 @@
 .scroller-container::after {
   right: 0;
   background: linear-gradient(270deg, #fff 0%, transparent 100%);
+}
+
+@media (min-width: 1500px) {
+  .scroller-container{
+    --gap: 110px
+  }
 }
