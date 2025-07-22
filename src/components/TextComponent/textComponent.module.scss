@@ -1,0 +1,35 @@
+
+
+.wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+
+  & p{
+    width: 50%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  & h6{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  & h2{
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  @media (max-width: 1260px) {
+    & p{
+      width: 100%;
+    }
+  }
+  @media (min-width: 614px) and (max-width: 652px) {
+    width: 90vw;
+  }
+  @media (max-width: 579px) {
+    height: 250px;
+  }
+
+}

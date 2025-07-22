@@ -6,19 +6,7 @@
   justify-content: space-around;
   height: 600px;
   padding: 0 10%;
-  width: 72%;
-  width: 100vw;
-}
-
-.CoursesMainContent{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 150px;
-}
-
-.CoursesMainContent p {
-  width: 45%;
+  width: 100%;
 }
 
 .wrapCourses{
@@ -109,9 +97,6 @@ hr{
 }
 
 @media (max-width: 819px) {
-  .CoursesMainContent p {
-    width: 100%;
-  }
   .courses{
     height: 900px;
     padding: 0 10%;
@@ -119,9 +104,6 @@ hr{
 }
 
 @media (max-width: 614px) {
-  .CoursesMainContent p {
-    width: 100%;
-  }
   .courses{
     height: 1500px;
     padding: 0 5%;
@@ -130,10 +112,3 @@ hr{
     width: 100vw;
   }
 }
-
-@media (max-width: 510px) {
-  .CoursesMainContent{
-    height: 200px;
-  }
-}
-

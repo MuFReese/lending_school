@@ -1,0 +1,42 @@
+
+
+
+.wrap{
+  margin-top: 100px;
+  padding: 0 10%;
+
+
+  @media (min-width: 1700px) {
+    .course{
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .CoursesMainContent p {
+      width: 100%;
+    }
+    .courses{
+      height: 900px;
+      padding: 0 20%;
+    }
+  }
+
+  @media (max-width: 819px) {
+    .courses{
+      height: 900px;
+      padding: 0 10%;
+    }
+  }
+
+  @media (max-width: 614px) {
+    .courses{
+      height: 1500px;
+      padding: 0 5%;
+    }
+    .course{
+      width: 100vw;
+    }
+  }
+
+}

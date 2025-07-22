@@ -1,6 +1,6 @@
+import TextContent from '../../components/TextComponent/TextComponent'
 import Course from './Course'
 import stylled from './Courses.module.css'
-import CoursesMainContent from './CoursesMainContent'
 
 type Courses = {
   imageIcon: string
@@ -33,12 +33,22 @@ const courses: Courses[] = [
 ]
 
 
+const CoursesContent = {
+  textTitle: "Quick examination",
+  title: "Approdable Packages",
+  text: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newton"
+}
+
+
+
+
+
 export default function Courses() {
 
 
   return(
     <section className={stylled.courses}>
-      <CoursesMainContent />
+      <TextContent content={CoursesContent}/>
       <div className={stylled.wrapCourses}>
         { courses.map( (value, index) => (
           <Course key={index} course={value}/>

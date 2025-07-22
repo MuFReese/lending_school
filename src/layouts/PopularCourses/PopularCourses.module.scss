@@ -1,0 +1,76 @@
+
+.popularCourses{
+  width: 100%;
+  padding: 0 5% 0 10%; 
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.popularCourses hr{
+  width: 100px;
+  height: 7px;
+  background-color: #E74040;
+}
+
+.popularCourses img{
+
+  object-fit: contain;
+}
+
+
+.popularCoursesText{
+  width: 800px;
+  height: 400px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.popularCoursesText h2{
+  font-size: 45px;
+}
+.popularCoursesText p{
+  font-size: 25px;
+  line-height: 40px;
+}
+.popularCoursesText button{
+  font-size: 30px;
+  &:hover{
+    text-shadow: 0px 0px 20px #6a9749;
+  }
+}
+.popularCourses hr{
+  width: 200px;
+  height: 7px;
+  background-color: #E74040;
+}
+
+@media (max-width: 1431px) {
+  .popularCourses{
+    height: 900px;
+  }
+  .popularCoursesText{
+    height: 300px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .popularCourses{
+    padding: 0 20%;
+  }
+}
+
+
+@media (max-width: 820px) {
+  .popularCourses{
+    padding: 0 5%;
+    height: 900px;
+
+  }
+  .popularCoursesText{
+    height: 400px;
+  }
+}
+
