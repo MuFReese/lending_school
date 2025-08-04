@@ -10,22 +10,22 @@ type Courses = {
 
 const courses: Courses[] = [
   {
-    imageIcon: '../../../public/courses/school.svg',
+    imageIcon: 'courses/school.svg',
     title: 'Training Courses',
     sentence: 'The gradual accumulation of information about'
   },
   {
-    imageIcon: '../../../public/courses/idea.svg',
+    imageIcon: 'courses/idea.svg',
     title: 'Training Courses',
     sentence: 'The gradual accumulation of information about'
   },
   {
-    imageIcon: '../../../public/courses/education.svg',
+    imageIcon: 'courses/education.svg',
     title: 'Expert instruction',
     sentence: 'The gradual information about atomic behaviour...'
   },
   {
-    imageIcon: '../../../public/courses/frame.svg',
+    imageIcon: 'courses/frame.svg',
     title: 'Lifetime access',
     sentence: 'The gradual accumulation of information about'
   },

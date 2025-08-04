@@ -1,5 +1,6 @@
 import TextContent from "../../components/TextComponent/TextComponent"
 import stylles from './ExpertsTeachers.module.scss'
+import Product from "./Product"
 
 
 interface ContentData{
@@ -20,6 +21,7 @@ function ExpertsTeacher() {
   return(
     <section className={stylles.wrap}>
       <TextContent content={textContentHeader} />
+      <Product />
     </section>
   )
 }

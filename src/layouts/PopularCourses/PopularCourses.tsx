@@ -10,7 +10,7 @@ interface ContentCourses{
 const content: ContentCourses = {
   title: 'Most Popular Courses',
   text: 'Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics ',
-  image: '../../../public/MostPopulatCourses.svg'
+  image: '/MostPopulatCourses.svg'
 }
  
 function PopularCourses() {

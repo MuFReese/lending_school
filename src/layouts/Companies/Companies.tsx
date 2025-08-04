@@ -1,6 +1,6 @@
 import './Companies.css'
 
-const images = ['../../../public/companies/Hooli.png', '../../../public/companies/lya.png', '../../../public/companies/list.png', '../../../public/companies/stripe.png', '../../../public/companies/aws.png', '../../../public/companies/robot.png']
+const images = ['/companies/Hooli.png', '/companies/lya.png', '/companies/list.png', '/companies/stripe.png', '/companies/aws.png', '/companies/robot.png']
 
 
 export default function Companies() {
